@@ -1,35 +1,36 @@
-# Automatizacion-de-Excel-CSV
-🍎📊 Automatización de Limpieza y Análisis de Datos de Frutas
+#Este proyecto realiza la automatización de limpieza y análisis de datos de ventas de frutas a partir de archivos CSV/Excel.
+El objetivo es ahorrar tiempo en la gestión de datos y facilitar la visualización de resultados para tomar mejores decisiones.
 
-Este proyecto está diseñado para automatizar la limpieza de datos en archivos CSV/Excel que contienen información sobre frutas, y generar un gráfico visual a partir de los datos ya procesados.
+📌 Descripción
 
-La idea principal es mostrar cómo, con unas pocas líneas de Python, se puede:
+El dataset contiene información de ventas de diferentes frutas.
+El script automatiza el proceso de:
 
-Transformar datos desordenados en información clara y confiable.
+Lectura de datos desde archivos CSV/Excel
 
-Ahorrar tiempo en tareas repetitivas de Excel mediante automatización con Python.
+Eliminación de duplicados y datos nulos
 
-Presentar los resultados de forma visual e intuitiva con gráficos.
+Normalización de nombres de frutas
 
-🚀 Funcionalidades principales
+Generación de un archivo limpio con los datos procesados
 
-✔️ Lectura de archivos CSV/Excel con datos de frutas
-✔️ Eliminación de duplicados
-✔️ Manejo de valores nulos
-✔️ Normalización de nombres (ejemplo: “manzana” → “Manzana”)
-✔️ Exportación a un archivo limpio (frutas_limpias.csv)
-✔️ Generación de un gráfico de barras con la distribución de frutas
+Creación de un gráfico de barras que muestra las ventas totales por fruta
+
+Esto permite transformar una tabla desordenada en un informe simple y visual.
 
 🛠️ Tecnologías utilizadas
 
 Python 3.x
 
-Pandas → para limpieza y manipulación de datos
+Pandas → limpieza y manipulación de datos
 
-Matplotlib → para la visualización
+Matplotlib → gráficos y visualización
 
-OpenPyXL → soporte para archivos Excel
+OpenPyXL → manejo de archivos Excel
 
 📊 Ejemplo de resultado
 
-Después de ejecutar el script, se obtiene un archivo limpio y un gráfico como el del archivo
+Después de la limpieza, se obtiene:
+
+Un archivo ventas_limpio.csv con los datos corregidos
+Un grafico on los valores
